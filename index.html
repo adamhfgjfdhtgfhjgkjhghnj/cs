@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input and Output Devices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">I/O Devices</div>
+      <div class="nav-links">
+        <a href="#input">Input</a>
+        <a href="#sensors">Sensors</a>
+        <a href="#output">Output</a>
+        <a href="#applications">Applications</a>
+        <a href="#quiz">Quiz</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Input and Output Devices</h1>
+      <p>
+        Explore how computers recieve data, process it, and communicate results
+        through different devices and systems.
+      </p>
+      <a href="#input" class="hero-btn">Start Learning</a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="input" class="card">
+      <h2>Input Devices and How They Work</h2>
+      <p>
+        Input devices are hardware components that allow users to send data into
+        a computer system. These devices convert physical actions into digital
+        signals that the computer can understand. For example, a keyboard sends
+        an electrical signal when a key is pressed, while a mouse uses sensors
+        to detect movement and move the cursor on the screen.
+      </p>
+      <p>
+        Other examples of input devices include scanners, microphones, cameras,
+        barcode readers, and touchscreens. A scanner captures images or text and
+        converts them into digital form. A microphone changes sound waves into
+        electrical signals, which are then processed by the computer. This shows
+        that input devices are essential because they allow the computer to
+        recieve information from the real world.
+      </p>
+    </section>
+
+    <section id="sensors" class="card">
+      <h2>Sensors in Monitoring and Control Applications</h2>
+      <p>
+        Sensors are special types of input devices that detect changes in the
+        enviroment. They are commonly used in monitoring and control systems to
+        measure things such as temperature, light, pressure, or motion.
+        Monitoring means the system records or displays data, while control
+        means the system reacts automatically based on that data.
+      </p>
+      <p>
+        For example, a temperature sensor in a smart home can detect heat levels.
+        If the temperature becomes too high, the system may automatically turn on
+        a fan or air conditioning. In traffix systems, sensors can detect the
+        presence of vehicles and help control traffic lights. This makes sensors
+        very important in automation and safety systems.
+      </p>
+    </section>
+
+    <section id="output" class="card">
+      <h2>Output Devices and How They Work</h2>
+      <p>
+        Output devices are hardware components that present data from the
+        computer to the user. These devices convert digital signals into forms
+        that humans can understand, such as images, sound, or printed text. A
+        monitor displays visual output using pixels, speakers convert electrical
+        signals into sound waves, and printers create hard copies of documents.
+      </p>
+      <p>
+        Other output devices include projectors and alarms. A projector displays
+        visual information on a large screen, which is useful in classrooms or
+        presentations. Speakers are used for music, speech, and alerts. Output
+        devices are important because they allow users to understand the results
+        of computer processing.
+      </p>
+    </section>
+
+    <section id="applications" class="card">
+      <h2>Applications of Output Devices</h2>
+      <div class="grid">
+        <div class="mini-card">
+          <h3>Education</h3>
+          <p>Monitors and projectors are used to display lessons, videos, and presentations.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Entertainment</h3>
+          <p>Speakers and screens are used for music, movies, and gaming systems.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Offices</h3>
+          <p>Printers are used to produce reports, worksheets, and important documents.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Control Systems</h3>
+          <p>Alarms, lights, and buzzers are used to respond to signals from sensors.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz" class="card quiz-card">
+      <h2>Quiz</h2>
+      <p class="quiz-intro">Test your understanding of input devices, sensors, and output devices.</p>
+
+      <div class="question">
+        <p>1. What is the main purpose of an input device?</p>
+        <label><input type="radio" name="q1" value="a"> To display results</label>
+        <label><input type="radio" name="q1" value="b"> To send data into a computer</label>
+        <label><input type="radio" name="q1" value="c"> To store files permanently</label>
+      </div>
+
+      <div class="question">
+        <p>2. What does a sensor do?</p>
+        <label><input type="radio" name="q2" value="a"> Prints data on paper</label>
+        <label><input type="radio" name="q2" value="b"> Detects changes in the enviroment</label>
+        <label><input type="radio" name="q2" value="c"> Increases internet speed</label>
+      </div>
+
+      <div class="question">
+        <p>3. Which of these is an output device?</p>
+        <label><input type="radio" name="q3" value="a"> Keyboard</label>
+        <label><input type="radio" name="q3" value="b"> Microphone</label>
+        <label><input type="radio" name="q3" value="c"> Printer</label>
+      </div>
+
+      <div class="question">
+        <p>4. What is the difference between monitoring and control?</p>
+        <label><input type="radio" name="q4" value="a"> Monitoring collects data, control reacts to it</label>
+        <label><input type="radio" name="q4" value="b"> Monitoring prints data, control stores it</label>
+        <label><input type="radio" name="q4" value="c"> There is no difference</label>
+      </div>
+
+      <button onclick="checkQuiz()">Submit Quiz</button>
+      <div id="result" class="result"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Input and Output Devices Website Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
